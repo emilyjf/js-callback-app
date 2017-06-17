@@ -105,7 +105,7 @@ function getData() {
 
     for (var i = 0; i < crimes.length; i++) {
       var crime = crimes[i];
-      if (crime.innerHTML.indexOf('MURDER') !== -1) {
+      if (crime.innerHTML.indexOf('HOMICIDE') !== -1) {
         crime.classList.remove('hidden');
       } else {
         crime.classList.add('hidden');
